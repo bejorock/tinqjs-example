@@ -1,0 +1,16 @@
+{
+  "name": "tinjs-example",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "author": "bejorock",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "lib/*",
+    "services/*"
+  ],
+  "devDependencies": {
+    "typescript": "^4.5.2"
+  }
+}

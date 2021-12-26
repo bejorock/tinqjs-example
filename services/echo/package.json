@@ -1,0 +1,12 @@
+{
+  "name": "echo",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/index.js",
+  "author": "bejorock",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^4.17.13",
+    "express": "^4.17.1"
+  }
+}

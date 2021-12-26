@@ -1,0 +1,11 @@
+{
+  "name": "myui",
+  "main": "index.js",
+  "liveReload": false,
+  "enabled": true,
+  "noBuild": true,
+  "http": {
+    "basePath": "/",
+    "routeDir": "http"
+  }
+}

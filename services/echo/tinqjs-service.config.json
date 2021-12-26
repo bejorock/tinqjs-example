@@ -1,0 +1,9 @@
+{
+  "name": "echo",
+  "liveReload": true,
+  "enabled": true,
+  "http": {
+    "basePath": "/api/echo",
+    "routeDir": "http"
+  }
+}

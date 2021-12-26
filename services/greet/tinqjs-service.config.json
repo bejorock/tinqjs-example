@@ -1,0 +1,9 @@
+{
+  "name": "greet",
+  "liveReload": true,
+  "enabled": true,
+  "http": {
+    "basePath": "/api/greet",
+    "routeDir": "http"
+  }
+}
