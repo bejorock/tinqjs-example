@@ -10,7 +10,9 @@ WORKDIR /etc/tinqjs
 
 COPY . .
 
-RUN chmod +x setup.sh && ./setup.sh
+RUN chmod +x setup.sh
+
+RUN ./setup.sh
 
 WORKDIR /etc/app
 
