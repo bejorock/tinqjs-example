@@ -4,6 +4,8 @@ ARG url
 
 RUN apk add git
 
+RUN apk add curl
+
 WORKDIR /etc/tinqjs
 
 COPY . .
