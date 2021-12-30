@@ -5,7 +5,7 @@ import main, {
   createAmqpService,
   createAmqpSubs,
   amqpPublish,
-} from "@tinqjs/tinqjs-boot";
+} from "@tinqjs/tinjs-boot";
 import express from "express";
 
 // @ts-ignore
