@@ -1,22 +1,22 @@
-FROM node:17-alpine
+FROM node:14-slim
 
 ARG url
 
-RUN apk add git
+RUN apt update
 
-RUN apk add curl
-
-WORKDIR /etc/tinqjs
-
-COPY . .
-
-RUN chmod +x setup.sh
-
-RUN ./setup.sh
+RUN apt install -y curl
 
 WORKDIR /etc/app
 
-RUN git clone $url /etc/app
+COPY . .
+
+RUN chmod +x ./build/setup.sh
+
+RUN ./build/setup.sh
+
+#WORKDIR /etc/app
+
+#RUN git clone $url /etc/app
 
 RUN npm install -g @tinqjs/tinjs-cli
 
